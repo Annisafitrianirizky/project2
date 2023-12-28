@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{secrets.USERNAME}} in actions 🚀
+run-name: ${{ github.actor }} in actions 🚀
 on: 
     push:
       branches:
